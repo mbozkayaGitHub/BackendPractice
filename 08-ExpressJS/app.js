@@ -100,7 +100,7 @@ const PORT = process.env.PORT || 8000
 //? JSON (.send() method already does this converting.)
 // app.get('/', (req, res) => res.json([{ key: 'value' }]))
 //? Download File (Download at browser):
- app.get('/download', (req, res) => res.download('./app.js', 'changedName.js'))
+// app.get('/download', (req, res) => res.download('./app.js', 'changedName.js'))
 //? SendFile Content:
 // console.log( __dirname )
 // app.get('/file', (req, res) => res.sendFile(__dirname + '/app.js')) // FilePath must be realPath
